@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/order/order",
+    "pages/user/user",
+    "pages/customized/customized",
+    "pages/result/result",
+    "pages/submit/submit",
+    "pages/answer/answer",
+    "pages/login/login",
+    "pages/user/changePwd/changePwd",
+    "pages/pay/pay",
+    "pages/submit/appointment/appointment",
+    "pages/user/examination/examination",
+    "pages/index/report/report",
+    "pages/result/resultList/resultList",
+    "pages/logs/logs",
+    "pages/customized/modal/modal",
+    "pages/submit/appointmentName/appointmentName"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,11 @@
+<view class="appoin-item" wx:for="{{data}}">
+  <span class="time">开始时间：{{item.StartTime}}</span>
+  <span class="time">结束时间：{{item.EndTime}}</span>
+  <view class="appoin-item-row"> 
+    <span class="time">可预约人数：{{item.LeftCount}}</span>
+    <view style="flex:1"/>
+    <view class="button" bindtap="appoin" data-time="{{item.StartTime}}" data-id="{{item.Id}}">预约</view>
+  </view>
+
+  
+</view>

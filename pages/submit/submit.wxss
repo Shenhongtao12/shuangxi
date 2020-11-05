@@ -1,0 +1,102 @@
+page{
+  background-color: rgb(243, 243, 243);
+  font-size: 15px;
+  font-weight: 400;
+}
+.submit{
+  display: flex;
+  flex-direction: column;
+}
+.submit-bg{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.submit-header-top{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid rgb(243, 243, 243);
+  align-items: center;
+}
+.submit-header-top-image{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.submit-header-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.submit-header-bottom-right{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.submit-header-bottom-image{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.price{
+  color: red;
+}
+.submit-form-item{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 16px;
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.submit-form-item-label{
+  margin: 15px;
+}
+.submit-form-item-right{
+  width: 20px;
+  height: 20px;
+  background-color: rgb(243, 243, 243);
+}
+.submit-pay{
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  align-items: center;
+}
+.submit-pay-title{
+  font-weight: bold;
+}
+.submit-pay-title-type{
+  background-color: rgb(220, 248, 252);
+  color: rgb(13, 154, 244);
+  border-radius: 10px;
+  padding: 3px;
+  margin-left: 10px;
+}
+.submit-pay-right-title{
+  color: gray;
+}
+.submit-pay-right-image{
+  width: 20px;
+  height: 20px;
+  border-right:20px solid transparent; 
+  filter: drop-shadow(gray 20px 0);
+}
+.submit-bottom{
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.submit-bottom-button{
+  margin:10px;
+  border-radius: 15px;
+  color: #ffffff;
+  background-color: rgb(8, 156, 254);
+  font-weight: 600;
+}

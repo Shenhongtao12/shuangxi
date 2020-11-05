@@ -1,0 +1,28 @@
+<view>
+
+      <view class="model-title">我要加项</view>
+      <checkbox-group bindchange="checkboxChange">
+              <view class='Mselect' wx:for="{{addData}}" wx:for-item="List">
+                    <view class="model-item-title-father">
+                      <view class="model-item-title-father-line"/>
+                      <span>{{List.Name}}</span>
+                    </view>
+                      <view class="model-item" wx:for="{{List.ExamItems}}" wx:for-index="idx" wx:if="{{item.Selected == false}}">
+                          <view class="check-box">
+                                      <view class="weui-cell__hd" style="border-radius:15px" >
+                                          <checkbox style="margin:10px;zoom:80%;"
+                                           value="{{idx}},{{index}}"
+                                          />
+                                      </view>
+                                      <view class="weui-cell__bd">{{item.Name}}</view>
+                                        <view style="flex:1"/>
+                                      <view>￥{{item.Price}}</view>
+                                          <image src="../../../images/right.png" class="image"/>
+                                      </view>
+                          </view>
+                      </view>
+     <view class="bottom-button" bindtap="submit">确定增加</view>
+    </checkbox-group>
+
+
+  </view>

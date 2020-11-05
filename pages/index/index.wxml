@@ -1,0 +1,73 @@
+<!--index.wxml-->
+<view class="home-bg">
+  <image src="../../images/bg_1.png" class="home-image"/>
+  <view class="home-content">
+  <view class="home-content-title">
+    <span class="home-content-title-text">双喜智慧云体检</span>
+    <span class="home-content-title-line"></span>
+    <spana class="home-content-title-text">私人健康管理</spana>
+  </view>
+  <view class="home-content-menu">
+    <view class="home-content-menu-detail" bindtap="goMyPort">
+      <image src="../../images/icon_yellow.png" class="home-content-menu-detail-image"/>
+      <image src="../../images/nav_baogao.png" class="home-content-ment-detail-icon"/>
+      <span class="home-content-ment-detail-text">我的报告</span>
+    </view>
+    <view class="home-content-menu-detail" bindtap="goMyUser">
+      <image src="../../images/icon_blue.png" class="home-content-menu-detail-image"/>
+      <image src="../../images/nav_order.png" class="home-content-ment-detail-icon"/>
+      <span class="home-content-ment-detail-text">我的订单</span>
+    </view>
+    <view class="home-content-menu-detail">
+      <image src="../../images/icon_green.png" class="home-content-menu-detail-image"/>
+      <image src="../../images/nav_guwen.png" class="home-content-ment-detail-icon"/>
+      <span class="home-content-ment-detail-text">家庭保健专家</span>
+    </view>
+  </view>
+  <view class="home-content-service">
+    <view class="home-content-service-title">
+      <view class="home-content-service-title-line"/>
+      <span>体检服务</span>
+      <view style="flex:1"/>
+      <span>更多</span>
+    </view>
+    <view class="home-content-service-content">
+      <view class="home-content-service-content-detail" bindtap="goAnswer">
+       <image src="../../images/tijian_yisheng.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">个人精准体检</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_fuke.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">男性无症状多发癌症筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_xiongbu.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">女性无症状多发癌症筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_jiehebingke.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">无症状肺癌筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_ganzang.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">无症状肝癌筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_neike.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">无症状胃癌筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_yiliao.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">更多无症状癌症筛查</span>
+      </view>
+      <view class="home-content-service-content-detail">
+       <image src="../../images/tijian_xinzang.png" class="home-content-service-image"/>
+       <span class="home-content-service-content-detail-text">心理健康体检</span>
+      </view>
+    </view>
+    
+  </view>
+  </view>
+  <view style="flex:1"/>
+  <view class="home-bottom-text">双喜健康智慧云体检</view>
+</view>

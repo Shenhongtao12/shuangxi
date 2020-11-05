@@ -1,0 +1,26 @@
+page{
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+}
+.appoin-item{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 20px;
+}
+.appoin-item-row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button{
+  margin:10px;
+  background-color: rgb(8, 158, 253);
+  color: #ffffff;
+  padding: 0 15px 0 15px;
+  border-radius: 15px;
+}
+.time{
+  margin: 10px;
+}

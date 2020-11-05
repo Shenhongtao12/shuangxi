@@ -1,0 +1,28 @@
+<view class="swiper-tab">  
+    <view class="swiper-tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">评估报告</view>  
+    <view class="swiper-tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">体检报告</view>  
+    <view class="swiper-tab-item {{currentTab==2 ? 'on' : ''}}" data-current="2" bindtap="swichNav">健康干预报告</view>  
+</view>  
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300"  style = "height:{{winHeight-35}}px" bindchange="bindChange">  
+    <swiper-item>  
+      <scroll-view scroll-x="false" scroll-y="true" class='scroll-views'>
+        <view class="report-item">
+          <image src="../../../images/add.png" class="report-image"/>
+          <view class="report-item-right">
+            <span>报告编号：23</span>
+            <span>性别：男</span>
+            <span>年龄：40岁</span>
+            <span class="time">评估时间：2020-07-31  12::45:34</span>
+          </view>
+        </view>
+      </scroll-view>
+    </swiper-item>  
+    <swiper-item>  
+      <view>体检报告</view>  
+    </swiper-item>  
+    <swiper-item>  
+      <view>健康干预报告</view>  
+    </swiper-item>  
+   
+</swiper>  

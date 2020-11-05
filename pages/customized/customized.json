@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "mp-cells": "../../miniprogram_npm/weui-miniprogram/cells/cells",
+    "mp-cell": "../../miniprogram_npm/weui-miniprogram/cell/cell",
+    "modal" : "./modal/modal",
+    "mp-slideview": "../../miniprogram_npm/weui-miniprogram/slideview/slideview"
+  },
+  "navigationBarTitleText": "定制体检项目"
+}

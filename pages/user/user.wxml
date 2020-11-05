@@ -1,0 +1,49 @@
+<!--pages/user/user.wxml-->
+<view>
+  <view class="user-top-bg">
+    <image src="{{user.avatarUrl}}" class="avatar"/>
+    <view class="user-top-name">{{user.nickName}}</view>
+  </view>
+  <view class="user-order-bg">
+    <span class="user-order-title">我的订单</span>
+    <view class="user-order">
+      <view class="user-order-item" bindtap="goOrder" data-type="1">
+        <image src="../../images/zhifu.png" class="user-order-image-touming"/>
+        <view class="user-order-image-bg"/>
+        <span>待支付</span>
+      </view>
+      <view class="user-order-item" bindtap="goOrder" data-type="2">
+        <image src="../../images/yuyue.png" class="user-order-image"/>
+        <span>待预约</span>
+      </view>
+      <view class="user-order-item" bindtap="goExamination">
+        <image src="../../images/tijian.png" class="user-order-image-touming"/>
+        <view class="user-order-image-bg"/>
+        <span>待体检</span>
+      </view>
+      <view class="user-order-item" bindtap="goOrder" data-type="3">
+        <image src="../../images/tuikuan.png" class="user-order-image-touming"/>
+        <view class="user-order-image-bg"/>
+        <span>已退款</span>
+      </view>
+    </view>
+  </view>
+
+  <mp-cells style="margin-top:20px">
+    <mp-cell value="体检报告" >
+                <image slot="icon" src="../../images/baogao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+     </mp-cell>
+     <mp-cell value="健康干预报告" >
+                <image slot="icon" src="../../images/baogao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+     </mp-cell>
+     <mp-cell value="我的发票" >
+                <image slot="icon" src="../../images/baogao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+     </mp-cell>
+     <mp-cell value="修改密码" bindtap="changePwd">
+                <image slot="icon" src="../../images/baogao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+     </mp-cell>
+     <mp-cell value="退出登录" bindtap="exitLogin">
+                <image slot="icon" src="../../images/baogao.png" style="margin-right: 16px;vertical-align: middle;width:20px; height: 20px;"></image>
+     </mp-cell>
+  </mp-cells>
+</view>

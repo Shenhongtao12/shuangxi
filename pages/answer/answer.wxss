@@ -1,0 +1,41 @@
+/* pages/personality.wxss */
+page{
+  height: 100%;
+}
+.personality-top{
+  background-color: rgb(0, 124, 210);
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+.personality-top-one-line{
+  color:#ffffff;
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+}
+.personality-top-two-line{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin:10px 0 10px 10px;
+}
+.personality-top-three-image{
+  width: 15px;
+  height:15px;
+  margin:0 5px 0 10px
+
+}
+.personality-top-three-text{
+  color:#ffffff;
+  font-size: 16px;
+}
+
+.personality-bottom{
+  background-color: #ffffff;
+  margin: -30px 10px 0 10px;
+  height: 120px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,43 @@
+<!--pages/personality.wxml-->
+<view >
+<view class="personality-top">
+  <image src="../../images/yes.png" class="logo"/>
+  <span class="grade">本次评估得分：{{result.Score}}</span>
+</view>
+<view class="hospital-title">
+  <image src="../../images/location.png" class="title-image"/>
+  {{result.ExamOrganizations[0].Name}}
+  <view style="flex:1"/>
+  <image src="../../images/change.png" class="title-image"/>
+</view>
+<view class="personality-bottom" bindtap="baseExam">
+  <view class="personality-bottom-title">
+    <image src="../../images/chaxun.png" class="item-logo"/>
+    <view class="item-title">健康常规体检</view>
+    <view class="price">￥{{result.BaseExam.TotalPrice}}</view>
+  </view>
+  <view class="detail-text">结合您的问卷调查，本方案共涉及到<span style="color:red">{{result.BaseExam.ExamPackageList.length}}</span>个体检项目，涉及到
+    肺部CT平扫、头颅CT平扫等项目</view>
+</view>
+<view class="personality-bottom" bindtap="exactExam">
+  <view class="personality-bottom-title">
+    <image src="../../images/baogao.png" class="item-logo"/>
+    <view class="item-title">健康精准体检</view>
+    <view class="price">￥{{result.ExactExam.TotalPrice}}</view>
+</view>
+<view class="detail-text">结合您的问卷调查，本方案共涉及到<span style="color:red">{{result.ExactExam.ExamPackageList.length}}</span>个体检项目，涉及到
+  肺部CT平扫、头颅CT平扫等项目</view>
+</view>
+<view class="personality-bottom" bindtap="seriousExam">
+  <view class="personality-bottom-title">
+    <image src="../../images/baozhang.png" class="item-logo"/>
+    <view class="item-title">重大疾病体检</view>
+    <view class="price">￥{{result.SeriousExam.TotalPrice}}</view>
+  </view>
+  <view class="detail-text">结合您的问卷调查，本方案共涉及到<span style="color:red">{{result.SeriousExam.ExamPackageList.length}}</span>个体检项目，涉及到
+    肺部CT平扫、头颅CT平扫等项目</view>
+</view>
+
+</view>
+
+

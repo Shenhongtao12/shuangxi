@@ -1,0 +1,38 @@
+<mp-toptips msg="{{error}}" type="error" show="{{error}}"></mp-toptips>
+<view class="page" >
+    <view class="page__bd">
+
+        <mp-cells title="{{itemName.Name}}" wx:for="{{initData}}" wx:for-item="itemName">
+            <mp-slideview 
+            buttons="{{slideButtons}}" 
+            bindbuttontap="slideButtonTap" 
+            wx:for="{{itemName.ExamItems}}" 
+            wx:if="{{item.Selected == true}}"
+            wx:for-index="idx"
+            data-child="{{idx}}"
+            data-father="{{index}}"
+            >
+                <mp-cell  value="{{item.Name}}" footer="￥{{item.Price}}"  >
+            </mp-cell>
+            </mp-slideview>
+            
+        </mp-cells>
+
+
+        <view class="bottom-detail">
+            <span>合计({{index}}项)</span>
+            <span class="price-text">￥{{price}}</span>
+            <view style="flex:1"/>
+            <view class="weui-btn-add"  bindtap="showAdd">
+                <image src="../../images/add.png" class="bottom-image"/>
+                <view>我要加项</view>
+            </view>
+            <view class="weui-btn-submit">
+                <image src="../../images/submit.png" class="bottom-image"/>
+                <view bindtap="sumbitOrder">提交订单</view>
+            </view>
+        </view>
+    </view>
+</view>
+
+

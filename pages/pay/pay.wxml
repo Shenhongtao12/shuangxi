@@ -1,0 +1,46 @@
+<view class="pay-top">
+  <view class="pay-top-detail">
+    <span style="text-align:center">￥</span>
+    <span class="price">{{price}}</span>
+  </view>
+  
+  <view class="pay-top-detail" style="font-size:13px">
+    <span>南方医科大学深圳医院体检中心</span>
+    <span class="detail">订单详情</span>
+    <image src="../../images/right.png" style="height:10px;width:10px;margin-left:8px"/>
+  </view>
+</view>
+
+<view class="pay-bottom">
+  <view class="pay-bottom-title">
+  <view>请选择支付方式</view>
+  <view style="flex:1"/>
+  <image  src="../../images/yes.png" class="submit-pay-right-image"/>
+  <span class="submit-pay-right-title">免费改期</span>
+  <image  src="../../images/yes.png" class="submit-pay-right-image"/>
+  <span class="submit-pay-right-title">未约可退</span>
+  </view>
+  <view class="line"/>
+  <radio-group bindchange="radioChange">
+    <view class="select-pay">
+      <image src="../../images/chatpay.png" class="image"/>
+      <view class="weui-cell__bd">微信支付</view>
+      <radio value="WxPay"  class="radio"/>
+    </view>
+    <view class="line"/>
+    <view class="select-pay">
+      <image src="../../images/alipay.png" class="image"/>
+      <view class="weui-cell__bd">支付宝支付</view>
+      <radio value="AliPay" class="radio"/>
+    </view>
+    <view class="line"/>
+    <view class="select-pay">
+      <image src="../../images/yinlian.png" class="image"/>
+      <view class="weui-cell__bd">银联支付</view>
+      <radio value="no"  class="radio"/>
+    </view>
+  </radio-group>
+</view>
+<view class="button" bindtap="pay">
+  确认支付
+</view>

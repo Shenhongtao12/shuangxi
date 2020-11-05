@@ -1,0 +1,60 @@
+
+<view   wx:if="{{showSubject == false}}">
+<view class="personality-bottom-title">
+    <span class="personality-bottom-title-detail">性别</span>
+    <span class="personality-bottom-title-detail">婚否</span>
+  </view>
+  <view class="personality-bottom-button-father">
+    <view class="personality-bottom-button" bindtap="selectSex" data-sex="male"
+     style="{{sex == 'male' ? 'background-color:rgb(251,170,125)' : '#ffffff'}}">男</view>
+    <view class="personality-bottom-button" bindtap="selectSex" data-sex="female"
+    style="{{sex == 'female' ? 'background-color:rgb(251,170,125)' : '#ffffff'}}">女</view>
+    <view class="personality-bottom-button" bindtap="selectMarry" data-marry="true"
+    style="{{marry == 'true' ? 'background-color:rgb(251,170,125)' : '#ffffff'}}">已婚</view>
+    <view class="personality-bottom-button" bindtap="selectMarry" data-marry="false"
+    style="{{marry == 'false' ? 'background-color:rgb(251,170,125)' : '#ffffff'}}">未婚</view>
+  </view>
+
+  <view class="personality-scale">
+   <span style="text-align:center;margin:5px">年龄{{age}}岁</span>
+   <scale min="16" max="99" int="{{true}}" step="1" fiexNum="40" single="10" h="80" active="center" bindvalue="bindvalue" class="scale"/>
+<button class="personality-bottom-begin" bindtap="beginTest">开始评估</button>
+</view>
+</view>
+
+
+<view  wx:if="{{showSubject == true}}" >
+  <view class="subject-question">{{subject.Index}}、{{subject.Question}}</view>
+  
+  <radio-group bindchange="radioChange" wx:if="{{subject.Radio == true}}">
+        <label class="subject-detail-father" wx:for="{{subject.Choices}}" wx:key="{{item.Id}}">
+          <view class="weui-cell__hd">
+            <radio value="{{item.Id}}" style="margin-right:20px" checked="{{checked}}" />
+          </view>
+          <view class="weui-cell__bd">{{item.Name}}</view>
+        </label>
+  </radio-group>
+  <checkbox-group bindchange="checkboxChange" wx:else>
+    <label class="subject-detail-father"  wx:for="{{subject.Choices}}" wx:key="{{item.Id}}">
+            <view class="weui-cell__hd">
+              <checkbox value="{{item.Id}}"  style="margin-right:20px"   checked="{{checked}}"/>
+            </view>
+            <view class="weui-cell__bd">{{item.Name}}</view>
+          </label>
+  </checkbox-group>
+  <view class="bottom">
+<view class="subject-button-father">
+    <button class="subject-button-left" bindtap="backQuestion">上一题</button>
+    <view style="flex:1"/>
+    <button class="subject-button-right" bindtap="nextQuestion">下一题</button>
+</view>
+  <view class="question-state">
+  <progress percent='{{percent1}}'   stroke-width="10" activeColor="#027CD2" backgroundColor="#BCE4FE"/>
+  <view class="question-title-state">共{{subject.Total}}题/当前第{{subject.Index}}题</view>
+  </view>
+  </view>
+</view>
+
+
+
+

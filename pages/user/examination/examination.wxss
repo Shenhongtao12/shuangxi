@@ -1,0 +1,146 @@
+page{
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  margin-bottom: 40px;
+}
+.top{
+  background-color: rgb(10, 158, 254);
+  height: 300rpx;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  margin: 10px  ;
+}
+.top-column{
+  display: flex;
+  flex-direction: column;
+}
+.top-title{
+  font-weight: bold;
+}
+.header{
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin:-50px 10px 10px 10px;
+  border-radius: 20px;
+}
+.header-row{
+  display: flex;
+  flex-direction: row;
+  margin:10px 0 10px 0;
+  align-items: center;
+}
+.header-title-image{
+  width:30px;
+  height:30px;
+  margin: 0 10px 0 10px
+}
+.line{
+  border-bottom: 1px solid rgb(243, 243, 243);
+}
+.header-title-avatar{
+  width: 80px;
+  height: 80px;  
+  margin: 10px;
+}
+.header-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10px;
+}
+.price{
+  color: red;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 0 10px 0 10px;
+  padding: 10px;
+}
+.content-title{
+  display: flex;
+  flex-direction: row;
+}
+.content-title-right{
+  margin-right:10px;
+  color: rgb(10, 158, 254);
+  border-bottom: 1px solid rgb(10, 158, 254);
+
+}
+.content-item{
+  display: flex;
+  flex-direction: row;
+}
+.content-detail{
+  display: flex;
+  flex-direction: column;
+  margin:10px
+}
+
+.a{
+  overflow:hidden;
+  text-overflow:ellipsis; 
+  white-space:nowrap; 
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+
+}
+.content-button{
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 15px;
+  padding: 0 10px 0 10px;
+}
+.bottom{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 10px 10px 20px 10px;
+  padding: 10px;
+
+}
+.bottom-button{
+  position: fixed;
+  bottom: 0px;
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.bottom-button-image{
+  width: 30px;
+  height: 30px;
+  margin:10px 10px 5px 20px
+}
+.botton-button-title{
+  color: rgb(10, 158, 254);
+  font-weight: bold2;
+}
+.tuikuan{
+  border-radius: 15px;
+  border: 1px solid gray;
+  margin-right: 10px;
+  padding: 0 10px 0 10px;
+}
+.gaiqi{
+  border-radius: 15px;
+  margin-right: 10px;
+  padding: 0 10px 0 10px;
+  color: #ffffff;
+  background-color: rgb(10, 158, 254);
+}

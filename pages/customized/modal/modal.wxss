@@ -1,0 +1,42 @@
+ 
+ .model-title{
+  margin:20px;
+  text-align:center;
+  font-weight: 600;
+ }
+ .model-item-title-father{
+   display: flex;
+   flex-direction: row;
+   font-weight: bold;
+   background-color: rgb(239, 239, 239);
+   padding: 5px;
+ }
+ .model-item-title-father-line{
+   border: 2px solid rgb(1, 110, 227);
+   margin: 5px  10px 5px 10px;
+ }
+.check-box{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
+.image{
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.weui-cell__bd{
+  font-size: 13px;
+}
+.model-item{
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+.bottom-button{
+  background-color: rgb(255, 72, 0);
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 5px;
+}

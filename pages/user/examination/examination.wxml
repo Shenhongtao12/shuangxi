@@ -1,0 +1,68 @@
+<view style="margin-bottom:15px">
+<view class="top">
+  <view class="top-column">
+    <image src="../../../images/add.png" class="image"/>
+  </view>
+  <view class="top-column" style="margin-top:10px">
+    <span class="top-title">待体检</span>
+    <span class="top-intra">体检时间：2020年8月6日，请按短信通知内容按时前往体检中心体检</span>
+  </view>
+</view>
+
+<view class="header">
+  <view class="header-row">
+    <image src="../../../images/add.png" class="header-title-image"/>
+    <span>武汉协和医院健康管理中心</span>
+  </view>
+  <view class="line"/>
+  <view class="header-row">
+    <image src="../../../images/add.png" class="header-title-avatar"/>
+    <view class="header-column">
+      <span>项目：26个</span>
+      <span>金额：<span class="price">￥2568</span></span>
+    </view>
+  </view>
+</view>
+
+<view class="content">
+  <view class="content-title">
+    <span style="margin-left:10px;font-weight:bold">预约信息</span>
+    <span style="flex:1"></span>
+    <span class="content-title-right">体检注意事项</span>
+  </view>
+  <view class="content-detail">
+    <span>体检人：<span style="margin-left:15px">李四</span></span>
+  <span>预约时间：<span>李四</span></span>
+  <span>证件号码：<span>李四</span></span>
+  <span>电话号码：<span>李四</span></span>
+  <span>体检医院：<span>李四</span></span>
+  <view class="navigation">
+    <span class="a">体检地址：<span >李四李四李四李</span></span>
+    <view style="flex:1"/>
+    <view class="content-button">导航</view>
+  </view>
+  </view>
+  
+</view>
+
+<view class="bottom">
+  <span style="margin-left:10px;font-weight:bold">订单信息</span>
+  <view class="content-detail">
+  <span>联系电话：<span>李四</span></span>
+  <view class="navigation">
+    <span class="a">订单编号：<span >李四李四李四李</span></span>
+    <view style="flex:1"/>
+    <view class="content-button">复制</view>
+  </view>
+  <span>下单时间：<span>李四</span></span>
+</view>
+</view>
+
+<view class="bottom-button">
+  <image src="../../../images/add.png" class="bottom-button-image"/>
+  <span class="botton-button-title">联系客服</span>
+  <view style="flex:1"/>
+  <view class="tuikuan">申请退款</view>
+  <view class="gaiqi">体检改期</view>
+</view>
+</view>

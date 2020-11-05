@@ -1,0 +1,117 @@
+page{
+  height: 100%;
+  width: 100%;
+}
+.home-bg{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 124, 210);
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-image{
+  width:60%;
+  height: 50%;
+  margin-top: 10%;
+}
+.home-content{
+  margin-top: -60%;
+  width: 100%;
+}
+.home-content-title{
+  display: flex;
+  flex-direction: column;
+}
+.home-content-title-line{
+  border: 1px solid #ffffff;
+  margin: 0 25% 0 25%;
+}
+.home-content-title-text{
+  font-size: 25px;
+  letter-spacing: 5px;
+  color:#ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin:5px
+}
+.home-content-title-text{
+  font-size: 25px;
+  letter-spacing: 5px;
+  color:#ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin:5px
+}
+.home-content-menu{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 10px;
+  height:150px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home-content-menu-detail{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  margin:20px 0 20px 0;
+  width: 33%; /* 每行3个 */
+  align-items: center
+}
+.home-content-menu-detail-image{
+  width: 80px;
+  height:80px;
+}
+.home-content-ment-detail-icon{
+  width: 50px;
+  height:50px;
+  position: absolute;
+  top:15px
+}
+.home-content-ment-detail-text{
+  margin-top: 10px;
+}
+.home-content-service{
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 20px 10px 10px 10px;
+  height:250px;
+  display: flex;
+  flex-direction: column;
+}
+.home-content-service-title{
+  display: flex;
+  flex-direction: row;
+  margin:15px
+}
+.home-content-service-title-line{
+  border: 2px solid rgb(0, 124, 210);
+  margin: 0 5px 0 0
+}
+.home-content-service-content-detail{
+  display: flex;
+  flex-direction: column;
+  width: 25%; /* 每行4个 */
+  margin:10px 0 10px 0;
+  align-items: center
+}
+.home-content-service-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.home-content-service-image{
+  width: 30px;
+  height:30px
+}
+.home-content-service-content-detail-text{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.home-bottom-text{
+  color:#ffffff;
+  margin-bottom: 20px;
+}

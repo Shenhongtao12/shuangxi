@@ -1,0 +1,37 @@
+/**app.wxss**/
+@import './miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+/* 重写 checkbox 样式 */
+ /* 未选中的 背景样式 */
+ checkbox .wx-checkbox-input{
+  border-radius: 50%;/* 圆角 */
+  width: 46rpx; /* 背景的宽 */
+  height: 46rpx; /* 背景的高 */
+  border: 1rpx solid gray;
+}
+/* 选中后的 背景样式*/
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+  border: 1rpx solid green;
+  background: green;
+}
+/* 选中后的 对勾样式 */
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+  border-radius: 50%;/* 圆角 */
+  width: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+  height: 40rpx;/* 选中后对勾大小，不要超过背景的尺寸 */
+  line-height: 40rpx;
+  text-align: center;
+  font-size:30rpx; /* 对勾大小 30rpx */
+  color:#fff; /* 对勾颜色 白色 */
+  background: transparent;
+  transform:translate(-50%, -50%) scale(1);
+  -webkit-transform:translate(-50%, -50%) scale(1);
+}

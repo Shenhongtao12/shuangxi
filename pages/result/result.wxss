@@ -1,0 +1,93 @@
+/* pages/personality.wxss */
+page{
+  height: 100%;
+  background-color: rgb(246,246,246);
+}
+.personality-top{
+  background-color: rgb(0, 124, 210);
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.personality-top-one-line{
+  color:#ffffff;
+  font-size: 15px;
+  margin: 10px 0 0 10px;
+}
+.personality-top-two-line{
+  color:#ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  margin:10px 0 10px 10px;
+}
+.personality-top-three-image{
+  width: 15px;
+  height:15px;
+  margin:0 5px 0 10px
+
+}
+.personality-top-three-text{
+  color:#ffffff;
+  font-size: 16px;
+}
+
+.personality-bottom{
+  background-color: #ffffff;
+  height: 120px;
+  border-radius: 15px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+.grade{
+  color: #ffffff;
+  font-size: 16px;
+}
+.item-logo{
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+.personality-bottom-title{
+  display: flex;
+  flex-direction: row;
+}
+.item-title{
+  margin: 10px 0 10px 0;
+}
+.price{
+  background-color: red;
+  border-radius: 15px;
+  height: 13px;
+  line-height: 13px;
+  color: #ffffff;
+  font-size: 13px;
+  padding: 5px;
+  margin: 10px 0 10px 10px;
+}
+.detail-text{
+  font-size: 14px;
+  margin-left: 45px;
+  margin-right: 10px;
+}
+.hospital-title{
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(254, 229, 126);
+  margin: 20px;
+  border-radius: 15px;
+  align-items: center;
+  margin-top: -20px;
+}
+.title-image{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}

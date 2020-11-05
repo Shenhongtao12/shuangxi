@@ -1,0 +1,49 @@
+
+/* pages/customized.wxss */
+page{
+  height: 100%;
+}
+.weui-label{
+  margin-left: 20px;
+}
+.page__bd{
+  display: flex;
+  flex-direction: column;
+}
+.bottom-detail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  bottom: 10px;
+  font-size: 13px;
+}
+.weui-btn-add{
+  border-radius: 25px;
+  background-color: #ffffff;
+  border: 1px solid rgb(26, 175, 255);
+  color:  rgb(26, 175, 255);
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  margin: 10px;
+}
+.bottom-image{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.weui-btn-submit{
+  border-radius: 25px;
+  background-color: rgb(26, 175, 255);
+  color:  #ffffff;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+}
+.price-text{
+  color: red;
+}

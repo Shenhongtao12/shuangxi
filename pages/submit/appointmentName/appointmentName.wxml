@@ -1,0 +1,12 @@
+<view class="page-section">
+    <view class="weui-cells weui-cells_after-title">
+      <radio-group bindchange="radioChange">
+        <label class="weui-cell weui-check__label" wx:for="{{data}}" wx:key="{{item.value}}">
+          <view class="weui-cell__hd">
+            <radio value="{{item.Name}}" />
+          </view>
+          <view class="weui-cell__bd">{{item.Name}}</view>
+        </label>
+      </radio-group>
+    </view>
+</view>

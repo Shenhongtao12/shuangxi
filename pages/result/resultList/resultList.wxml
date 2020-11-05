@@ -1,0 +1,12 @@
+<view class="result-list">
+  <view class="result-list-item-father" wx:for="{{physicalList}}" wx:for-item="list">
+    <span  class="result-list-item-father-title">{{list.Name}}</span>
+    <view class="result-list-item" wx:for="{{list.ExamItems}}">
+        <span style="flex:1">{{item.Name}}</span>
+        <image src="../../../images/right.png" class="result-list-item-image"/>
+    </view>
+  </view>
+  <view class="result-list-bottom" bindtap="goCustomized">
+    去定制体检
+  </view>
+</view>

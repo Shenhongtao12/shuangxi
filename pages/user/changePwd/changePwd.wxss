@@ -1,0 +1,12 @@
+page{
+  height: 100%;
+  width: 100%;
+}
+.button{
+  padding: 10px 20px 10px 20px;
+  margin: 10px;
+  background-color: royalblue;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 20px;
+}

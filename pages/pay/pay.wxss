@@ -1,0 +1,74 @@
+page{
+  height: 100%;
+  background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pay-top{
+  background-color: #ffffff;
+  margin:10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.pay-top-detail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.price{
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 5px;
+}
+.detail{
+  margin-left: 10px;
+}
+.pay-bottom{
+  display: flex;
+  flex-direction: column;
+
+  background-color: #ffffff;
+}
+.pay-bottom-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin:10px;
+}
+.submit-pay-right-image{
+  width: 20px;
+  height: 20px;
+  border-right:20px solid transparent; 
+  filter: drop-shadow(gray 20px 0);
+}
+.line{
+  border-bottom: 1px solid rgb(243, 243, 243);
+  margin-top: 10px;
+}
+.submit-pay-right-title{
+  color: rgb(8, 158, 253);
+  margin-left: 5px;
+}
+.select-pay{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+}
+.radio{
+  margin-right: 10px;
+}
+.button{
+  background-color: rgb(8, 158, 253);
+  color: #ffffff;
+  margin:20px;
+  padding: 10px 70px 10px 70px;
+  border-radius: 20px;
+}

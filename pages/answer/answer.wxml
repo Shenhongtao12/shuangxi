@@ -1,0 +1,16 @@
+<!--pages/personality.wxml-->
+<view>
+<view class="personality-top">
+  <span class="personality-top-one-line" wx:if="{{userInfo == ''}}">请选择</span>
+  <span class="personality-top-two-line">您的基本信息 :{{userInfo.sex}}        {{userInfo.marry}}        {{userInfo.age}}</span>
+  <view>
+    <image src="../../images/notice.png" class="personality-top-three-image"/>
+    <span class="personality-top-three-text">根据评估结果推荐精准的体检项目</span>
+  </view>
+</view>
+<view class="personality-bottom">
+  <answerDetail bind:sendUserInfo="getUserInfo"/>
+
+</view>
+
+</view>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+   
+    "answerDetail" : "./answerDetail/answerDetail"
+  },
+  "navigationBarTitleText": "精准化个性体检"
+}

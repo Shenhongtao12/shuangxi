@@ -1,0 +1,10 @@
+<view>
+  <view class="page-section">
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input"  placeholder="请输入您想修改的密码"  bindinput="bindKeyInput"/>
+      </view>
+    </view>
+  </view>
+  <view class="button" bindtap="changePwd">确认修改</view>
+</view>
